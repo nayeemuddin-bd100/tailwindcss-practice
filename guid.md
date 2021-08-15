@@ -15,3 +15,24 @@
 <!-- custom font -->
 
 To add custom font we have to add font import link in styles.css file inside srt folder ,Not public folder. after have to add name and font name in config file...
+
+<!--  @apply -->
+
+Use @apply to inline any existing utility classes into your own custom CSS.
+
+here, we can write plain css and tailwind class with @apply method
+ex:
+.btn {
+transform: translateY(-1px);
+@apply bg-black;
+}
+
+/_ Output _/
+.btn {
+background-color: #000;
+transform: translateY(-1px);
+}
+
+<!-- problem -->
+
+@apply directice doesn't work

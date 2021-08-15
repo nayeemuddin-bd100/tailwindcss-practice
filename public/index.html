@@ -13,7 +13,12 @@
         <nav>
           <div>
             <h1 class="p-5 font-bold uppercase border-b border-gray-100">
-              <a href="/"> Food Ninja</a>
+              <a
+                href="/"
+                class="text-green-500 sm:text-red-500 md:text-purple-500 lg:text-gray-500"
+              >
+                Food Ninja</a
+              >
             </h1>
           </div>
           <ul class="text-gray-900 flex flex-row text-center">
@@ -31,31 +36,81 @@
       </div>
       <!-- end nav-->
 
-      <main class="px-12 font-body">
-        <div class="text-primary flex justify-end">
+      <main class="px-12 font-body mt-3 bg-gray-100">
+        <div class="text-primary flex justify-center md:justify-end">
           <a href="#"> Login</a>
           <a class="ml-3" href="#"> Sign Up</a>
         </div>
 
         <header class="mt-5">
           <h2 class="font-mono text-2xl md:text-5xl">Receipes</h2>
-          <h2>For Ninja</h2>
+          <h2 class="test">For Ninja</h2>
         </header>
 
         <div>
-          <h4 class="mt-5 border-b-2 pb-2">Latest Receipes</h4>
+          <h4 class="mt-5 mb-3 border-b-2 pb-2">Latest Receipes</h4>
 
-          <div class="">
+          <div class="flex flex-col sm:flex-row flex-wrap justify-center">
             <!-- cards go there -->
-            <div class="p-5">
+            <div
+              class="my-2 sm:mx-2 bg-white rounded shadow overflow-hidden hover:shadow-2xl relative"
+            >
               <img
-                class="h-48 object-right"
+                class="w-full h-32 sm:h-48 object-cover"
                 src="./img/0burger.jpg"
                 alt="burger"
               />
-              <div>
-                <span> 5 Been Chili Stew</span>
-                <span> Receipes by Mario</span>
+              <div class="m-4 font-serif">
+                <span class="font-bold"> 5 Been Chili Stew</span>
+                <span class="block text-gray-700 text-sm">
+                  Receipes by Mario</span
+                >
+              </div>
+              <div
+                class="bg-secondary-100 text-secondary-200 font-bold uppercase text-xs p-2 top-0 absolute m-2 rounded-full"
+              >
+                <span> 25 mins</span>
+              </div>
+            </div>
+
+            <div
+              class="my-2 sm:mx-2 bg-white rounded shadow overflow-hidden hover:shadow-2xl relative"
+            >
+              <img
+                class="w-full h-32 sm:h-48 object-cover"
+                src="./img/1pizza.jpg"
+                alt="burger"
+              />
+              <div class="m-4 font-serif">
+                <span class="font-bold"> 5 Been Chili Stew</span>
+                <span class="block text-gray-700 text-sm">
+                  Receipes by Mario</span
+                >
+              </div>
+              <div
+                class="bg-secondary-100 text-secondary-200 font-bold uppercase text-xs p-2 top-0 absolute m-2 rounded-full"
+              >
+                <span> 25 mins</span>
+              </div>
+            </div>
+            <div
+              class="my-2 sm:mx-2 bg-white rounded shadow overflow-hidden hover:shadow-2xl relative"
+            >
+              <img
+                class="w-full h-32 sm:h-48 object-cover"
+                src="./img/3cake.jpg"
+                alt="cake"
+              />
+              <div class="m-4 font-serif">
+                <span class="font-bold"> 3 Sweets Cake</span>
+                <span class="block text-gray-700 text-sm">
+                  Receipes by Mario</span
+                >
+              </div>
+              <div
+                class="bg-secondary-100 text-secondary-200 font-bold uppercase text-xs p-2 top-0 absolute m-2 rounded-full"
+              >
+                <span> 25 mins</span>
               </div>
             </div>
           </div>
